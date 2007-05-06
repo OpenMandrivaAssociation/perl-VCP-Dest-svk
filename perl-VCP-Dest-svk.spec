@@ -11,6 +11,7 @@ Url:		http://searc.cpan.org/dist/%{realname}
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	perl-devel perl-IPC-Run3 perl-BFD 
 BuildRequires:	perl-VCP perl-SVK
+BuildRequires:	perl(YAML)
 BuildArch:      noarch
 %description
 This driver allows vcp to insert revisions in to a Subversion repository via 
