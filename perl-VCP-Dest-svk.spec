@@ -1,8 +1,8 @@
 %define realname  VCP-Dest-svk
 
 Name:		perl-%{realname}
-Version:	0.28
-Release:	%mkrel 2
+Version:	0.29
+Release:	%mkrel 1
 License:	GPL or Artistic
 Group:		Development/Perl
 Summary:    VCP driver to write svk repository
@@ -21,6 +21,7 @@ Among other it allows you to mirror cvs repository with the svk command.
 
 Check http://svk.elixus.org/?SVKCVS and http://svk.elixus.org/?MirrorVCP for
 more information.
+
 %prep
 %setup -q -n %{realname}-%{version}
 
