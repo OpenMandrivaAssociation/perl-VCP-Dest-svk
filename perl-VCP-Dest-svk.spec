@@ -2,7 +2,7 @@
 
 Name:		perl-%{realname}
 Version:	0.29
-Release:	%mkrel 3
+Release:	%mkrel 4
 License:	GPL or Artistic
 Group:		Development/Perl
 Summary:    VCP driver to write svk repository
