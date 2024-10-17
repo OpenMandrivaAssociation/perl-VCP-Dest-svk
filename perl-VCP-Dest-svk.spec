@@ -7,7 +7,7 @@ License:	GPL or Artistic
 Group:		Development/Perl
 Summary:    VCP driver to write svk repository
 Source0:    http://www.cpan.org/authors/id/C/CL/CLKAO/%{realname}-%{version}.tar.bz2
-Url:		http://searc.cpan.org/dist/%{realname}
+Url:		https://searc.cpan.org/dist/%{realname}
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	perl-devel perl-IPC-Run3 perl-BFD 
 BuildRequires:	perl-VCP perl-SVK
